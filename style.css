@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.box{
+    padding: 15px;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+button{
+    width: 45px;
+    height: 45px;
+    font-size: 35px;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+    background-color: rgb(1,1,1,0);
+    border: none;
+}
